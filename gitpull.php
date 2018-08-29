@@ -1,6 +1,6 @@
 <?php
 	/**
-	 * GIT DEPLOYMENT SCRIPT
+	 * GIT WEBHOOK SCRIPT
 	 *
 	 * Used for automatically deploying websites via github or bitbucket, more deets here:
 	 *
@@ -8,8 +8,6 @@
 	 */
 	// The commands
 	$commands = array(
-		'echo $PWD',
-		'whoami',
 		'git pull',
 		'git status',
 		'git submodule sync',
@@ -31,13 +29,13 @@
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>GIT DEPLOYMENT SCRIPT</title>
+	<title>GIT DEPLOY</title>
 </head>
 <body style="background-color: #000000; color: #FFFFFF; font-weight: bold; padding: 0 10px;">
 <pre>
  .  ____  .    ____________________________
  |/      \|   |                            |
-[| <span style="color: #FF0000;">&hearts;    &hearts;</span> |]  | Git Deployment Script v0.1 |
+[| <span style="color: #FF0000;">&hearts;    &hearts;</span> |]  | Git Webhook v0.1 |
  |___==___|  /              &copy; koolamusic 2018 |
               |____________________________|
 
